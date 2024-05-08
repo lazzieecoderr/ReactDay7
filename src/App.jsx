@@ -12,10 +12,10 @@ const App = () => {
   return (
     <div>
      
-     <>
-      <Navbar />
-     </>
-     
+  <BrowserRouter>
+  <div>
+    <Navbar />
+  </div>
      <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/about' element={<About />} />
@@ -23,7 +23,7 @@ const App = () => {
       <Route path='/products' element={ <Products />} />
       <Route path='*' element={<PageNotFound />} />
      </Routes>
-     
+     </BrowserRouter>
         
 </div>
   );
