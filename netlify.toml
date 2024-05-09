@@ -1,4 +1,4 @@
-[[redirects]]
-from="/"
+[[redirect]]
+from="/*"
 to="/index.html"
 status=200
